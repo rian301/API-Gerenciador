@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Black.Domain\Black.Domain.csproj" />
+    <ProjectReference Include="..\Black.Infra.CrossCutting.Identity\Black.Infra.CrossCutting.Identity.csproj" />
+    <ProjectReference Include="..\Procard.Domain.Core\Black.Domain.Core.csproj" />
+  </ItemGroup>
+
+</Project>

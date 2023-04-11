@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.90" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Black.Domain\Black.Domain.csproj" />
+    <ProjectReference Include="..\Black.Infra.Data\Black.Infra.Data.csproj" />
+    <ProjectReference Include="..\Black.Repository\Black.Repository.csproj" />
+    <ProjectReference Include="..\Procard.Domain.Core\Black.Domain.Core.csproj" />
+  </ItemGroup>
+
+</Project>

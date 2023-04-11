@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.95.4" />
+    <PackageReference Include="ExcelDataReader" Version="3.6.0" />
+    <PackageReference Include="iTextSharp.LGPLv2.Core" Version="1.7.5" />
+    <PackageReference Include="OfficeOpenXml.Extends" Version="1.0.6" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Black.Application\Black.Application.csproj" />
+    <ProjectReference Include="..\Black.Service.Integration\Black.Service.Integration.csproj" />
+    <ProjectReference Include="..\Black.Service\Black.Service.csproj" />
+  </ItemGroup>
+
+</Project>

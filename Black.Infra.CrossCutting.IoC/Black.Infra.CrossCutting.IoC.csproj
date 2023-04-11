@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Black.Application.Implement\Black.Application.Implement.csproj" />
+    <ProjectReference Include="..\Black.Application\Black.Application.csproj" />
+    <ProjectReference Include="..\Black.Infra.CrossCutting.Identity\Black.Infra.CrossCutting.Identity.csproj" />
+    <ProjectReference Include="..\Black.Repository.Implement\Black.Repository.Implement.csproj" />
+    <ProjectReference Include="..\Black.Service.Implement\Black.Service.Implement.csproj" />
+    <ProjectReference Include="..\Procard.Domain.Core\Black.Domain.Core.csproj" />
+  </ItemGroup>
+
+</Project>
